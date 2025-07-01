@@ -49,3 +49,30 @@ nestjs 학습하기
   #✔ What transport layer do you use? REST API
   #✔ Would you like to generate CRUD entry points? No
   ```
+
+## 섹션 6.
+
+[Built-in HTTP exceptions](https://docs.nestjs.com/exception-filters#built-in-http-exceptions)
+
+```
+BadRequestException
+UnauthorizedException
+NotFoundException
+ForbiddenException
+NotAcceptableException
+RequestTimeoutException
+ConflictException
+GoneException
+HttpVersionNotSupportedException
+PayloadTooLargeException
+UnsupportedMediaTypeException
+UnprocessableEntityException
+InternalServerErrorException
+NotImplementedException
+ImATeapotException
+MethodNotAllowedException
+BadGatewayException
+ServiceUnavailableException
+GatewayTimeoutException
+PreconditionFailedException
+```
