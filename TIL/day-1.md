@@ -157,6 +157,7 @@ nestJS, mongoDB, nginx, redis 등등 관리해야할 도커 컨테이너가 너�
 ### 도커 실행
 
 1. 익스텐션 docker 설치하기(docker hub 와 연동하여 자동완성)
+   - [docker hub] (https://hub.docker.com/_/postgres)
 2. docker-compose.yaml 을 최상위경로에 생성
 
    ```yaml
@@ -201,3 +202,10 @@ nestJS, mongoDB, nginx, redis 등등 관리해야할 도커 컨테이너가 너�
 1. docker 프로그램 실행
 2. 컨테이너 이미지 실행: `$ docker-compose up`
 3. nestjs 실행: `$ yarn start:dev`
+
+## 섹션 10. TypeORM
+
+1. 설치
+   ```cmd
+   $ yarn add @nestjs/typeorm typeorm pg
+   ```
