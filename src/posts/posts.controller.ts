@@ -13,6 +13,8 @@ import { PostsService } from './posts.service';
 
 @Controller('posts')
 export class PostsController {
+  // NestJS IoC Container 에서 주입할 서비스를 자동으로 생성해준다
+  // => posts.module.ts 로 가시오
   constructor(private readonly postsService: PostsService) {}
 
   @Get()

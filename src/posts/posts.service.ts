@@ -45,7 +45,7 @@ let posts: PostModel[] = [
   },
 ];
 
-@Injectable()
+@Injectable() // => provider 로 사용할 수 있다.
 export class PostsService {
   getAllPosts() {
     return posts;
