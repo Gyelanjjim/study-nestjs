@@ -30,7 +30,7 @@ export class PostsController {
 
   @Get(':name/:title')
   searchPost(@Param('name') name: string, @Param('title') title: string) {
-    return this.postsService.searchPost(title, name);
+    return this.postsService.searchPost(name, title);
   }
 
   @Post()
@@ -54,6 +54,6 @@ export class PostsController {
 
   @Delete(':id')
   deletePost(@Param('id') id: string) {
-    return this.postsService.deletePost(id);
+    return this.postsService.deletePost(+id);
   }
 }
